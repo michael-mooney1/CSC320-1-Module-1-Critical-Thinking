@@ -6,6 +6,7 @@ public class Module1CriticalThinking {
 
 	public static void main(String[] args) {
 		Scanner scnr = new Scanner(System.in);
+		// Setup variables to use for input
 		String firstName;
 		String lastName;
 		String streetAddress;
@@ -13,6 +14,7 @@ public class Module1CriticalThinking {
 		String state;
 		String zipcode;
 		
+		// Get input from user
 		System.out.println("Enter your first name:");
 		firstName = scnr.nextLine();
 		
@@ -31,6 +33,7 @@ public class Module1CriticalThinking {
 		System.out.println("Enter your zipcode");
 		zipcode = scnr.nextLine();
 		
+		// Output information
 		System.out.println(firstName + " " + lastName);
 		System.out.println(streetAddress);
 		System.out.println(city + ", " + state + " " + zipcode);
